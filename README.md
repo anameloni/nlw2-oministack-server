@@ -1,40 +1,47 @@
-<h1 align="center">
-    <img alt="Proffy" title="Proffy" src="logo.svg" />
-</h1>
+# Functionalities
 
-<p align="center">
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
+## Connections
 
-<p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=8257E5&labelColor=000000" alt="PRs welcome!" />
+- Route to list total connections;
+- Route to create a new connection.
 
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=8257E5&labelColor=000000">
-</p>
+## Classes
 
-<br>
+- Route to create a class;
+- Route to list classes;
+    - Filter subject, weekday and time;
 
-<p align="center">
-  <img alt="Proffy" src="https://github.com/rocketseat-education/nlw-02-omnistack/blob/f0e7e792b6d5903fe3a61e31cd7d53674260e39d/.github/proffy.png?raw=true" width="100%">
-</p>
+# Concepts
+- 
+- Migrations: script created to control database versions: create, delete update, change  type of tables and fields;
+- 
+# Verbs/methods HTTP:
+- GET: To search or list some information;
+- POST: To create new information;
+- PUT: To update some existing information;
+- DELETE: To exclude some existing information.
 
-## 🚀 Tecnologias
+# Inside a request there are 3 parameters kinds:
+- REQUEST BODY: data to creat ou to update a register;
+- ROUTE PARAMS: identifies which resource will be updated or created;
+- QUERY PARAMS: used to pagination, filters, ordination, 
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+# Libraries and frameworks
+- 
+- 
+- knex: To write SQL using JS;
+- sqlite3: Database;
+- path: is contained on nodeJS to define the application paths;
+- 
 
-- [Node.js](https://nodejs.org/en/)
-- [React](https://reactjs.org)
-- [React Native](https://facebook.github.io/react-native/)
-- [Expo](https://expo.io/)
+ # Expressions and params
+ - 
+ - 
+ - __dirname: return the current file directory
+ - 
 
-## 💻 Projeto
-
-O Proffy é uma plataforma de estudos online que ajuda pessoas a encontrarem professores online. Esse projeto foi desenvolvido como caso de uso do curso de React da Rocketseat duranto o NLW#2
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
----
+ # Scripts json
+    Scripts created on file package.json
+  - 
+  - "knex:migrate": 
+    - -knexfile knexfile.ts migrate:latest",
